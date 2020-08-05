@@ -2,12 +2,12 @@ package DataStructures.HashMap.Hashing;
 
 import java.util.Scanner;
 
-public class Main {
+public class MainChaining {
 	public static void main(String[] args) {
 
 		int choice, key;
 
-		HashMap h = new HashMap(7);
+		HashMapChaining h = new HashMapChaining(7);
 		Scanner In = new Scanner(System.in);
 
 		while (true) {
@@ -42,7 +42,6 @@ public class Main {
 					return;
 				}	
 			}
-			
 		}
 	}
 }
